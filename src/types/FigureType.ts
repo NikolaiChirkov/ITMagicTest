@@ -1,0 +1,1 @@
+export type FigureType = [ number, number, number ];
