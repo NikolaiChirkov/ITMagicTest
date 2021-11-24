@@ -1,8 +1,9 @@
+import { performance } from 'perf_hooks';
 import matrixMock from './src/mocks/mockData.json';
 import getShapesFromMatrix from './src/app';
 
-const startTime = Date.now();
+const startTime = performance.now();
 
 getShapesFromMatrix(matrixMock);
 
-console.log('Execution time: ' + (Date.now() - startTime));
+console.log(`\nExecution time: ${(performance.now() - startTime)}\n`);

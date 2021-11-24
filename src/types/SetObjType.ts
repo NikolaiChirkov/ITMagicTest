@@ -1,4 +1,4 @@
-export type MapSetType = (
+export type SetObjType = (
   vMin: number, 
   hMin: number, 
   vMax: number, 
