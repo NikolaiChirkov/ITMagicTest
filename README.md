@@ -13,7 +13,7 @@ Matrix must match next condtions:
 
 ## I/O Data
 
-Input: number[][];
+Input: number[][]
 Output: [number, number, nubmer][]
 
 ## Figures to find
