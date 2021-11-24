@@ -31,3 +31,11 @@ For example: better not to look for a square, but look for two horizontal lines,
 Also, I decided, that we will iterate through a matrix, and every cell that we'll look in exact moment will be top left corner of a required figure and also a start point for searching.
 
 That's the idea of the solution
+
+## Check the Output
+
+You can check output in the console
+
+## Manipulate the Input
+
+You can change input data in ```src/mocks/mockData.json``` file
