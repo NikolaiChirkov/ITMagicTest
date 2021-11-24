@@ -13,8 +13,9 @@ Matrix must match next condtions:
 
 ## I/O Data
 
-Input: number[][]
-Output: [number, number, nubmer][]
+Input: ```number[][]```
+
+Output: ```[number, number, nubmer][]```
 
 ## Figures to find
 
