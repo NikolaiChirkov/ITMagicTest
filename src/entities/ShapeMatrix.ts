@@ -3,7 +3,7 @@ import { FigureType } from "../types/FigureType";
 import { CheckHLineType, CheckVLineType } from "../types/LineCheckersType";
 import { SetObjType } from "../types/SetObjType";
 
-export class ShapeMatrixStore {
+export class ShapeMatrix {
   _matrix: number[][];
   _figureMatrix: FigureType[];
   _figuresObj: {[index: string]: number};

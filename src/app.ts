@@ -1,8 +1,8 @@
-import { ShapeMatrixStore } from './store/ShapeMatrixStore';
+import { ShapeMatrix } from './entities/ShapeMatrix';
 import { FigureType } from './types/FigureType';
 
 function getShapesFromMatrix(matrix: number[][]): FigureType[] {
-  const figuresMatrix = new ShapeMatrixStore(matrix).figureMatrix;
+  const figuresMatrix = new ShapeMatrix(matrix).figureMatrix;
 
   console.table(figuresMatrix);
 
